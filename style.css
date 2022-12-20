@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,800;1,100;1,300;1,500&family=Roboto:ital,wght@0,300;0,500;0,900;1,100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+
+    background-color: rgb(252, 252, 0);
+
+}
+
+.page {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.top_left_topcontent {
+
+    align-items: center;
+}
+
+.top_left h1 {
+    display: flex;
+    justify-content: center;
+    color: #10b1dd;
+}
+
+.top_left h1 span {
+    color: #f7b037;
+}
+
+.top_left p {
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.striped_border {
+
+    background-color: #10b1dd;
+    width: 100%;
+    background: linear-gradient(to right,
+            #10b1dd52,
+            #10b1dd 50%,
+            #10b1dd 50%,
+            #10b1dd52);
+}
+
+/*_----------------------------------*/
+.top_left_middlecontent-left h1 {
+    color: #034052;
+    text-transform: uppercase;
+
+}
+
+.top_left_middlecontent-left p {
+
+    text-align: left;
+    color: #10b1dd;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+/*_----------------------------------*/
+.top_left_endcontent_top {
+
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.top_left_endcontent_top h2 {
+    color: #020a52;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+.top_left_endcontent_top h1 {
+    text-align: right;
+    color: #f7b037;
+    margin-top: -15px;
+    margin-right: -50px;
+
+}
+
+.top_left_endcontent_top p {
+    margin-top: -15px;
+    font-size: 10px;
+    color: #10b1dd;
+    text-align: right;
+}
+
+.top_left_endcontent_top_adult h2 {
+    font-size: 17px;
+    color: #f7b037;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.top_left_endcontent_top_adult h1 {
+    margin-top: -13px;
+    color: #020a52;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.top_left_endcontent_top_adult-icon .col-2 img {
+
+    margin-top: 25px;
+   
+
+
+
+
+}
+/*--------------------------top_right-content-------------*/
+
+.top_right-content h2{
+text-transform: uppercase;
+    color: #020a52;
+    
+}
+
+
+
+
