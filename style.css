@@ -7,7 +7,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+section{
 
+height: 2em !important;
+
+}
 .container {
 
     background-color: rgb(252, 252, 0);
@@ -69,6 +73,7 @@
     font-size: 12px;
 
 }
+
 /*_----------------------------------*/
 .top_left_endcontent_top {
 
@@ -119,20 +124,68 @@
 .top_left_endcontent_top_adult-icon .col-2 img {
 
     margin-top: 25px;
-   
-
-
-
 
 }
+
 /*--------------------------top_right-content-------------*/
 
-.top_right-content h2{
-text-transform: uppercase;
+.top_right-content1 h1{
+text-transform: capitalize;
+
+}
+.healthy h2{
+    text-transform: uppercase;
     color: #020a52;
+}
+
+
+.top_right-content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 110px !important;
+    margin-top: -40px !important;
+    margin-bottom: 50px;
+   
     
 }
 
+.top_right-content1 .img1 {
+    height: 100px !important;
+    width: 120px !important;
+}
 
+.top_right-content1 h2 {
+    color: #f7b037;
+    font-size: 50px !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    transform: translateY(0.5em);
+    padding:0 20px ;
+}
 
+.top_right-content1 h1 {
+    transform: translateY(0.5em);
+    color: #10b1dd;
 
+}
+/*--------------------------bottom_right-content-------------*/
+
+.bottom_right-content1 h3{
+
+text-transform: uppercase;
+color: #020a52;
+
+}
+.bottom_right-content1 h4{
+
+    color: #f7b037;
+}
+.bottom_right-content1 h4 span{
+font-size: 15px;
+    color: #f7b037;
+}
+.bottom_right-content1 p{
+    color: #10b1dd;
+    font-size: 12px;
+}
